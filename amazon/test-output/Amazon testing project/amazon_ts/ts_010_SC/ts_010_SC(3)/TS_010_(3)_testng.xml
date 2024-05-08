@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+		<listeners>
+		<listener class-name="screenshot.listnerss"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_005_SHOPPINGCART_FUNCTIONALITY3"/>
+      <class name="TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_006_SHOPPINGCART_FUNCTIONALITY4"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

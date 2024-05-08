@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method namecheckout_page]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameexisting_address_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-07T13:38:54 IST" name="Suite" finished-at="2024-05-07T13:41:06 IST" duration-ms="132387">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T13:38:54 IST" name="Test" finished-at="2024-05-07T13:41:06 IST" duration-ms="132387">
+      <class name="TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:38:54 IST" name="setup" finished-at="2024-05-07T13:39:05 IST" duration-ms="11817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkout_page()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:39:05 IST" name="checkout_page" finished-at="2024-05-07T13:39:36 IST" duration-ms="30409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namecheckout_page]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkout_page -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:39:36 IST" name="teardown" finished-at="2024-05-07T13:39:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:39:36 IST" name="setup" finished-at="2024-05-07T13:39:53 IST" duration-ms="17298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existing_address_checkout()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:39:53 IST" name="existing_address_checkout" finished-at="2024-05-07T13:40:14 IST" duration-ms="20792" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameexisting_address_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- existing_address_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:40:14 IST" name="teardown" finished-at="2024-05-07T13:40:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:40:14 IST" name="setup" finished-at="2024-05-07T13:40:24 IST" duration-ms="10227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:40:24 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T13:40:24 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:40:24 IST" name="teardown" finished-at="2024-05-07T13:40:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:40:24 IST" name="setup" finished-at="2024-05-07T13:41:06 IST" duration-ms="41654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:41:06 IST" name="validate_product_name_price" finished-at="2024-05-07T13:41:06 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4@2f01783a]" started-at="2024-05-07T13:41:06 IST" name="teardown" finished-at="2024-05-07T13:41:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_011CHECKOUT_FUNCTIONALITY.TC_CO_004_CHECKOUT_FUNCTIONALITY4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

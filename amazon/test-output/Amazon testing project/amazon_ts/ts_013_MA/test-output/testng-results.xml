@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method nameexisting_address_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameui_interface_tc_ma_004]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameexisting_address_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namenavigate_checkout_to_my_account]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameexisting_address_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namenavigate_checkout_to_my_account]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_title_url]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_invalid_credentials_TC_LF_002]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namenavigate_tologin_from_my_account]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameexisting_address_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesupported_env_tc_ma_004]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-07T15:05:47 IST" name="Suite" finished-at="2024-05-07T15:11:02 IST" duration-ms="315362">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T15:05:47 IST" name="Test" finished-at="2024-05-07T15:11:02 IST" duration-ms="315362">
+      <class name="TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2@6f8e8894]" started-at="2024-05-07T15:08:43 IST" name="setup" finished-at="2024-05-07T15:08:52 IST" duration-ms="9632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_invalid_credentials_TC_LF_002()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2@6f8e8894]" started-at="2024-05-07T15:08:52 IST" name="logging_invalid_credentials_TC_LF_002" finished-at="2024-05-07T15:09:01 IST" duration-ms="8994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_invalid_credentials_TC_LF_002]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_invalid_credentials_TC_LF_002 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2@6f8e8894]" started-at="2024-05-07T15:09:01 IST" name="teardown" finished-at="2024-05-07T15:09:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2@6f8e8894]" started-at="2024-05-07T15:09:01 IST" name="setup" finished-at="2024-05-07T15:09:04 IST" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_tologin_from_my_account()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2@6f8e8894]" started-at="2024-05-07T15:09:04 IST" name="navigate_tologin_from_my_account" finished-at="2024-05-07T15:09:17 IST" duration-ms="13019" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namenavigate_tologin_from_my_account]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigate_tologin_from_my_account -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2@6f8e8894]" started-at="2024-05-07T15:09:17 IST" name="teardown" finished-at="2024-05-07T15:09:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_013_MY_ACCOUNT.TC_MA_002_MY_ACCOUNT2 -->
+      <class name="TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:17 IST" name="setup" finished-at="2024-05-07T15:07:27 IST" duration-ms="10268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existing_address_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:27 IST" name="existing_address_checkout" finished-at="2024-05-07T15:07:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameexisting_address_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- existing_address_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:27 IST" name="teardown" finished-at="2024-05-07T15:07:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:27 IST" name="setup" finished-at="2024-05-07T15:07:35 IST" duration-ms="7643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:35 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:07:35 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:35 IST" name="teardown" finished-at="2024-05-07T15:07:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:35 IST" name="setup" finished-at="2024-05-07T15:07:39 IST" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_checkout_to_my_account()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:39 IST" name="navigate_checkout_to_my_account" finished-at="2024-05-07T15:07:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namenavigate_checkout_to_my_account]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigate_checkout_to_my_account -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:39 IST" name="teardown" finished-at="2024-05-07T15:07:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:39 IST" name="setup" finished-at="2024-05-07T15:07:49 IST" duration-ms="9795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_title_url()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:49 IST" name="validate_title_url" finished-at="2024-05-07T15:07:49 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_title_url]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_title_url -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:49 IST" name="teardown" finished-at="2024-05-07T15:07:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:49 IST" name="setup" finished-at="2024-05-07T15:07:59 IST" duration-ms="9734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:07:59 IST" name="validate_product_name_price" finished-at="2024-05-07T15:08:09 IST" duration-ms="9412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:09 IST" name="teardown" finished-at="2024-05-07T15:08:09 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:09 IST" name="setup" finished-at="2024-05-07T15:08:26 IST" duration-ms="17172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:26 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T15:08:26 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:26 IST" name="teardown" finished-at="2024-05-07T15:08:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:26 IST" name="setup" finished-at="2024-05-07T15:08:42 IST" duration-ms="16406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_shopping_cart_to_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:42 IST" name="Validate_shopping_cart_to_checkout" finished-at="2024-05-07T15:08:43 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_shopping_cart_to_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2@6b0d80ed]" started-at="2024-05-07T15:08:43 IST" name="teardown" finished-at="2024-05-07T15:08:43 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_013_MY_ACCOUNT.TC_MA_003_MY_ACCOUNT2 -->
+      <class name="TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:05:47 IST" name="setup" finished-at="2024-05-07T15:05:55 IST" duration-ms="7950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existing_address_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:05:55 IST" name="existing_address_checkout" finished-at="2024-05-07T15:05:55 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameexisting_address_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- existing_address_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:05:55 IST" name="teardown" finished-at="2024-05-07T15:05:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:05:55 IST" name="setup" finished-at="2024-05-07T15:06:01 IST" duration-ms="6043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:01 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:06:01 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:01 IST" name="teardown" finished-at="2024-05-07T15:06:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:01 IST" name="setup" finished-at="2024-05-07T15:06:04 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ui_interface_tc_ma_004()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:04 IST" name="ui_interface_tc_ma_004" finished-at="2024-05-07T15:06:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameui_interface_tc_ma_004]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ui_interface_tc_ma_004 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:04 IST" name="teardown" finished-at="2024-05-07T15:06:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:04 IST" name="setup" finished-at="2024-05-07T15:06:12 IST" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:12 IST" name="validate_product_name_price" finished-at="2024-05-07T15:06:19 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:19 IST" name="teardown" finished-at="2024-05-07T15:06:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:19 IST" name="setup" finished-at="2024-05-07T15:06:23 IST" duration-ms="4210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:23 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T15:06:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:23 IST" name="teardown" finished-at="2024-05-07T15:06:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:23 IST" name="setup" finished-at="2024-05-07T15:06:27 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_shopping_cart_to_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:27 IST" name="Validate_shopping_cart_to_checkout" finished-at="2024-05-07T15:06:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_shopping_cart_to_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2@18317edc]" started-at="2024-05-07T15:06:27 IST" name="teardown" finished-at="2024-05-07T15:06:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_013_MY_ACCOUNT.TC_MA_004_MY_ACCOUNT2 -->
+      <class name="TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:27 IST" name="setup" finished-at="2024-05-07T15:06:34 IST" duration-ms="7851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existing_address_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:34 IST" name="existing_address_checkout" finished-at="2024-05-07T15:06:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameexisting_address_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- existing_address_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:34 IST" name="teardown" finished-at="2024-05-07T15:06:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:34 IST" name="setup" finished-at="2024-05-07T15:06:37 IST" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:37 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:06:42 IST" duration-ms="4652" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:42 IST" name="teardown" finished-at="2024-05-07T15:06:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:42 IST" name="setup" finished-at="2024-05-07T15:06:48 IST" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_checkout_to_my_account()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:48 IST" name="navigate_checkout_to_my_account" finished-at="2024-05-07T15:06:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namenavigate_checkout_to_my_account]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigate_checkout_to_my_account -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:48 IST" name="teardown" finished-at="2024-05-07T15:06:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:48 IST" name="setup" finished-at="2024-05-07T15:06:55 IST" duration-ms="6553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:06:55 IST" name="validate_product_name_price" finished-at="2024-05-07T15:07:05 IST" duration-ms="10734" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:05 IST" name="teardown" finished-at="2024-05-07T15:07:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:05 IST" name="setup" finished-at="2024-05-07T15:07:11 IST" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:11 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T15:07:11 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:11 IST" name="setup" finished-at="2024-05-07T15:07:17 IST" duration-ms="6273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:11 IST" name="teardown" finished-at="2024-05-07T15:07:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="Validate_shopping_cart_to_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:17 IST" name="Validate_shopping_cart_to_checkout" finished-at="2024-05-07T15:07:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_shopping_cart_to_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT@452e19ca]" started-at="2024-05-07T15:07:17 IST" name="teardown" finished-at="2024-05-07T15:07:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_013_MY_ACCOUNT.TC_MA_001_MY_ACCOUNT -->
+      <class name="TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:17 IST" name="setup" finished-at="2024-05-07T15:09:24 IST" duration-ms="6855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existing_address_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:24 IST" name="existing_address_checkout" finished-at="2024-05-07T15:09:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameexisting_address_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- existing_address_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:24 IST" name="teardown" finished-at="2024-05-07T15:09:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:24 IST" name="setup" finished-at="2024-05-07T15:09:28 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:28 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:09:34 IST" duration-ms="6569" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:34 IST" name="teardown" finished-at="2024-05-07T15:09:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:34 IST" name="setup" finished-at="2024-05-07T15:09:40 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="supported_env_tc_ma_004()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:40 IST" name="supported_env_tc_ma_004" finished-at="2024-05-07T15:09:40 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesupported_env_tc_ma_004]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- supported_env_tc_ma_004 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:40 IST" name="setup" finished-at="2024-05-07T15:09:50 IST" duration-ms="10135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:40 IST" name="teardown" finished-at="2024-05-07T15:09:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:09:50 IST" name="validate_product_name_price" finished-at="2024-05-07T15:10:07 IST" duration-ms="17236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:10:07 IST" name="teardown" finished-at="2024-05-07T15:10:07 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:10:07 IST" name="setup" finished-at="2024-05-07T15:10:40 IST" duration-ms="32781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:10:40 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T15:10:40 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:10:40 IST" name="teardown" finished-at="2024-05-07T15:10:40 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:10:40 IST" name="setup" finished-at="2024-05-07T15:11:01 IST" duration-ms="20566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_shopping_cart_to_checkout()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:11:01 IST" name="Validate_shopping_cart_to_checkout" finished-at="2024-05-07T15:11:01 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_shopping_cart_to_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3@3cfdd820]" started-at="2024-05-07T15:11:01 IST" name="teardown" finished-at="2024-05-07T15:11:02 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_013_MY_ACCOUNT.TC_MA_005_MY_ACCOUNT3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_007_SHOPPINGCART_FUNCTIONALITY6</th>
+	    <th id="testClassNameId" hidden="true">TC_SC_007_SHOPPINGCART_FUNCTIONALITY6</th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">E:\amazon\TS_010_(4)_testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">TS_010_(4)_testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:01:05</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>4</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+												
+				
+				
+												<tr>
+			<td class="time">1715058858214</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0c7bcc37-2d76-4480-b5ec-5ac577d95e2e','block');changeSingleIcon('span-0c7bcc37-2d76-4480-b5ec-5ac577d95e2e');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_007_SHOPPINGCART_FUNCTIONALITY6</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0c7bcc37-2d76-4480-b5ec-5ac577d95e2e' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715058858214</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Validate_update_negative_qty_of_product</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>20.538s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0c7bcc37-2d76-4480-b5ec-5ac577d95e2e" style="display: block;">
+												method nameValidate_update_negative_qty_of_product<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715058825733</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('485b139e-9791-408a-8c0d-a7d65d8d7832','block');changeSingleIcon('span-485b139e-9791-408a-8c0d-a7d65d8d7832');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_007_SHOPPINGCART_FUNCTIONALITY6</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-485b139e-9791-408a-8c0d-a7d65d8d7832' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715058825733</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_product_name_price</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>9.506s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="485b139e-9791-408a-8c0d-a7d65d8d7832" style="display: block;">
+												method namevalidate_product_name_price<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715058818567</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5b24cbf3-0667-42ef-9898-c5bd5e4d2d91','block');changeSingleIcon('span-5b24cbf3-0667-42ef-9898-c5bd5e4d2d91');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_007_SHOPPINGCART_FUNCTIONALITY6</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-5b24cbf3-0667-42ef-9898-c5bd5e4d2d91' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715058818567</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>2.334s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="5b24cbf3-0667-42ef-9898-c5bd5e4d2d91" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715058838760</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('65a3d014-d327-49b8-916c-35f0daf807fa','block');changeSingleIcon('span-65a3d014-d327-49b8-916c-35f0daf807fa');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_007_SHOPPINGCART_FUNCTIONALITY6</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-65a3d014-d327-49b8-916c-35f0daf807fa' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715058838760</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>success_message_to_shoppingCart</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>17.713s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="65a3d014-d327-49b8-916c-35f0daf807fa" style="display: block;">
+												method namesuccess_message_to_shoppingCart<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

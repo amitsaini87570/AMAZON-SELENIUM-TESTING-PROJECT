@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_url_title]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-07T11:15:09 IST" name="Suite" finished-at="2024-05-07T11:15:33 IST" duration-ms="24223">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T11:15:09 IST" name="Test" finished-at="2024-05-07T11:15:33 IST" duration-ms="24223">
+      <class name="TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:09 IST" name="setup" finished-at="2024-05-07T11:15:15 IST" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:15 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T11:15:18 IST" duration-ms="2703" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:18 IST" name="teardown" finished-at="2024-05-07T11:15:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:18 IST" name="setup" finished-at="2024-05-07T11:15:21 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:21 IST" name="validate_product_name_price" finished-at="2024-05-07T11:15:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:21 IST" name="teardown" finished-at="2024-05-07T11:15:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:21 IST" name="setup" finished-at="2024-05-07T11:15:28 IST" duration-ms="6707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:28 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T11:15:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:28 IST" name="teardown" finished-at="2024-05-07T11:15:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:28 IST" name="setup" finished-at="2024-05-07T11:15:33 IST" duration-ms="5576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_url_title()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:33 IST" name="Validate_url_title" finished-at="2024-05-07T11:15:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_url_title]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_url_title -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5@68746f22]" started-at="2024-05-07T11:15:33 IST" name="teardown" finished-at="2024-05-07T11:15:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_010_SHOPPING_CART_FUNCTIONALITY.TC_SC_008_SHOPPINGCART_FUNCTIONALITY5 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

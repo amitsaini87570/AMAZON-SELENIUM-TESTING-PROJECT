@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+			<listeners>
+		<listener class-name="screenshot.listnerss"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TS_015_ORDER_HISTORY.TS_015_005_ORDER_HISTORY5"/>
+      <class name="TS_015_ORDER_HISTORY.TS_015_004_ORDER_HISTORY4"/>
+      <class name="TS_015_ORDER_HISTORY.TS_015_007_ORDER_HISTORY6"/>
+      <class name="TS_015_ORDER_HISTORY.TS_015_006_ORDER_HISTORY6"/>
+      <class name="TS_015_ORDER_HISTORY.TS_015_001_ORDER_HISTORY"/>
+      <class name="TS_015_ORDER_HISTORY.TS_015_003_ORDER_HISTORY3"/>
+      <class name="TS_015_ORDER_HISTORY.TS_015_002_ORDER_HISTORY2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

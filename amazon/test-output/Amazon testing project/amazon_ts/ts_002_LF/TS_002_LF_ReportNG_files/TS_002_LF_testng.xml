@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="screenshot.listnerss"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_006_LOGIN_FUNCTIONALITY2"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_013_LOGIN_FUNCTIONALITY2"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_001_LOGIN_FUNCTIONALITY"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_015_LOGIN_FUNCTIONALITY4"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_007_LOGIN_FUNCTIONALITY2"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_002_LOGIN_FUNCTIONALITY2"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_008_LOGIN_FUNCTIONALITY3"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_014_LOGIN_FUNCTIONALITY3"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_011_LOGIN_FUNCTIONALITY4"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_009_LOGIN_FUNCTIONALITY2"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_003_LOGIN_FUNCTIONALITY3"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_012_LOGIN_FUNCTIONALITY5"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_005_LOGIN_FUNCTIONALITY3"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_010_LOGIN_FUNCTIONALITY3"/>
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_LF_004_LOGIN_FUNCTIONALITY2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

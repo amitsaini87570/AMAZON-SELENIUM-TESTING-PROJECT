@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">TS_012_CHANGE_PASSWORD.TC_001_CHANGE_PASSWORD_FUNCTIONALITY<br>TS_012_CHANGE_PASSWORD.TC_002_CHANGE_PASSWORD_FUNCTIONALITY2<br>TS_012_CHANGE_PASSWORD.TC_003_CHANGE_PASSWORD_FUNCTIONALITY3<br>TS_012_CHANGE_PASSWORD.TC_004_CHANGE_PASSWORD_FUNCTIONALITY3<br></th>
+	    <th id="testClassNameId" hidden="true">TC_001_CHANGE_PASSWORD_FUNCTIONALITY<br>TC_002_CHANGE_PASSWORD_FUNCTIONALITY2<br>TC_003_CHANGE_PASSWORD_FUNCTIONALITY3<br>TC_004_CHANGE_PASSWORD_FUNCTIONALITY3<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">E:\amazon\TS_012_CP_(1)_testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">TS_012_CP_(1)_testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:01:21</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>11</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																								
+				
+				
+												<tr>
+			<td class="time">1715072380488</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('df484075-ca9c-4d7f-aaed-ba5136f77be4','block');changeSingleIcon('span-df484075-ca9c-4d7f-aaed-ba5136f77be4');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_001_CHANGE_PASSWORD_FUNCTIONALITY</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-df484075-ca9c-4d7f-aaed-ba5136f77be4' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072380488</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>3.224s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="df484075-ca9c-4d7f-aaed-ba5136f77be4" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072371731</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a95dd860-29c8-4830-9f10-31fc80c95bb0','block');changeSingleIcon('span-a95dd860-29c8-4830-9f10-31fc80c95bb0');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_001_CHANGE_PASSWORD_FUNCTIONALITY</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a95dd860-29c8-4830-9f10-31fc80c95bb0' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072371731</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>navigate_to_change_password_page</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.008s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a95dd860-29c8-4830-9f10-31fc80c95bb0" style="display: block;">
+												method namenavigate_to_change_password_page<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715072392764</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('f80bc80d-1c4f-4b4c-8f80-ba62bfb67320','block');changeSingleIcon('span-f80bc80d-1c4f-4b4c-8f80-ba62bfb67320');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_002_CHANGE_PASSWORD_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-f80bc80d-1c4f-4b4c-8f80-ba62bfb67320' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072392764</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_change_password</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="f80bc80d-1c4f-4b4c-8f80-ba62bfb67320" style="display: block;">
+												method namevalidate_change_password<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072397172</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d45e0dab-6ff0-4bbe-b6a0-3c4ac436a803','block');changeSingleIcon('span-d45e0dab-6ff0-4bbe-b6a0-3c4ac436a803');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_002_CHANGE_PASSWORD_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d45e0dab-6ff0-4bbe-b6a0-3c4ac436a803' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072397172</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>3.665s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d45e0dab-6ff0-4bbe-b6a0-3c4ac436a803" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072388275</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('dfec07f1-73e7-42d8-9c2e-6239caac5fbf','block');changeSingleIcon('span-dfec07f1-73e7-42d8-9c2e-6239caac5fbf');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_002_CHANGE_PASSWORD_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-dfec07f1-73e7-42d8-9c2e-6239caac5fbf' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072388275</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>navigate_to_change_password_page</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="dfec07f1-73e7-42d8-9c2e-6239caac5fbf" style="display: block;">
+												method namenavigate_to_change_password_page<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715072419043</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9911e1fd-0011-4d0b-b54f-5a0cdbde6f21','block');changeSingleIcon('span-9911e1fd-0011-4d0b-b54f-5a0cdbde6f21');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_003_CHANGE_PASSWORD_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9911e1fd-0011-4d0b-b54f-5a0cdbde6f21' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072419043</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>4.741s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="9911e1fd-0011-4d0b-b54f-5a0cdbde6f21" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072406901</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('33ded907-f9c3-4b0d-af9e-083036cf8335','block');changeSingleIcon('span-33ded907-f9c3-4b0d-af9e-083036cf8335');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_003_CHANGE_PASSWORD_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-33ded907-f9c3-4b0d-af9e-083036cf8335' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072406901</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>navigate_to_change_password_page</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.016s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="33ded907-f9c3-4b0d-af9e-083036cf8335" style="display: block;">
+												method namenavigate_to_change_password_page<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072413896</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0891ffa3-040f-4390-80a6-af332795361d','block');changeSingleIcon('span-0891ffa3-040f-4390-80a6-af332795361d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_003_CHANGE_PASSWORD_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0891ffa3-040f-4390-80a6-af332795361d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072413896</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_without_enter_change_password</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0891ffa3-040f-4390-80a6-af332795361d" style="display: block;">
+												method namevalidate_without_enter_change_password<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715072426007</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('142eab3e-e91c-48f5-a93f-bf977f3fa959','block');changeSingleIcon('span-142eab3e-e91c-48f5-a93f-bf977f3fa959');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_004_CHANGE_PASSWORD_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-142eab3e-e91c-48f5-a93f-bf977f3fa959' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072426007</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>navigate_to_change_password_page</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="142eab3e-e91c-48f5-a93f-bf977f3fa959" style="display: block;">
+												method namenavigate_to_change_password_page<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072440798</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('488eb5ef-6cf9-4328-ac8c-3ab104d2f3e7','block');changeSingleIcon('span-488eb5ef-6cf9-4328-ac8c-3ab104d2f3e7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_004_CHANGE_PASSWORD_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-488eb5ef-6cf9-4328-ac8c-3ab104d2f3e7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072440798</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>5.087s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="488eb5ef-6cf9-4328-ac8c-3ab104d2f3e7" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715072436219</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2b916ff1-82f1-4860-a348-9859f5a151c4','block');changeSingleIcon('span-2b916ff1-82f1-4860-a348-9859f5a151c4');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_012_CHANGE_PASSWORD.TC_004_CHANGE_PASSWORD_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-2b916ff1-82f1-4860-a348-9859f5a151c4' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715072436219</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_enter_different_change_password</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="2b916ff1-82f1-4860-a348-9859f5a151c4" style="display: block;">
+												method namevalidate_enter_different_change_password<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">TS_011CHECKOUT_FUNCTIONALITY.TC_CO_008_CHECKOUT_FUNCTIONALITY3<br>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_009_CHECKOUT_FUNCTIONALITY4<br></th>
+	    <th id="testClassNameId" hidden="true">TC_CO_008_CHECKOUT_FUNCTIONALITY3<br>TC_CO_009_CHECKOUT_FUNCTIONALITY4<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">E:\amazon\TS_011_CO_(6)_testng2.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">TS_011_CO_(6)_testng2.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:01:31</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>10</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																
+				
+				
+												<tr>
+			<td class="time">1715070755323</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('97c45640-42b9-46a2-8678-d0e5e556574d','block');changeSingleIcon('span-97c45640-42b9-46a2-8678-d0e5e556574d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_008_CHECKOUT_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-97c45640-42b9-46a2-8678-d0e5e556574d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070755323</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_ui</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.010s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="97c45640-42b9-46a2-8678-d0e5e556574d" style="display: block;">
+												method namevalidate_ui<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070796469</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('92e790d9-e37a-4217-bf48-b65d304f45d2','block');changeSingleIcon('span-92e790d9-e37a-4217-bf48-b65d304f45d2');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_008_CHECKOUT_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-92e790d9-e37a-4217-bf48-b65d304f45d2' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070796469</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Validate_shopping_cart_to_checkout</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="92e790d9-e37a-4217-bf48-b65d304f45d2" style="display: block;">
+												method nameValidate_shopping_cart_to_checkout<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070761346</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0ed73409-d270-4ee2-a6a2-ff944147b243','block');changeSingleIcon('span-0ed73409-d270-4ee2-a6a2-ff944147b243');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_008_CHECKOUT_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0ed73409-d270-4ee2-a6a2-ff944147b243' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070761346</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.048s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0ed73409-d270-4ee2-a6a2-ff944147b243" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070777522</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9b8a0669-9432-4f96-a7fa-d79093647246','block');changeSingleIcon('span-9b8a0669-9432-4f96-a7fa-d79093647246');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_008_CHECKOUT_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9b8a0669-9432-4f96-a7fa-d79093647246' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070777522</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>success_message_to_shoppingCart</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.025s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="9b8a0669-9432-4f96-a7fa-d79093647246" style="display: block;">
+												method namesuccess_message_to_shoppingCart<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070774534</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6538e112-6920-4afc-a0a8-f70fda5fffc5','block');changeSingleIcon('span-6538e112-6920-4afc-a0a8-f70fda5fffc5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_008_CHECKOUT_FUNCTIONALITY3</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6538e112-6920-4afc-a0a8-f70fda5fffc5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070774534</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_product_name_price</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.096s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="6538e112-6920-4afc-a0a8-f70fda5fffc5" style="display: block;">
+												method namevalidate_product_name_price<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715070839314</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('edf244d8-9843-45c5-94ab-58c346bbc190','block');changeSingleIcon('span-edf244d8-9843-45c5-94ab-58c346bbc190');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_009_CHECKOUT_FUNCTIONALITY4</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-edf244d8-9843-45c5-94ab-58c346bbc190' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070839314</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>Validate_shopping_cart_to_checkout</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="edf244d8-9843-45c5-94ab-58c346bbc190" style="display: block;">
+												method nameValidate_shopping_cart_to_checkout<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070817483</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('eeba42c6-353b-4391-bbab-d9d68483216f','block');changeSingleIcon('span-eeba42c6-353b-4391-bbab-d9d68483216f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_009_CHECKOUT_FUNCTIONALITY4</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-eeba42c6-353b-4391-bbab-d9d68483216f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070817483</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_product_name_price</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.104s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="eeba42c6-353b-4391-bbab-d9d68483216f" style="display: block;">
+												method namevalidate_product_name_price<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070810815</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('fcd3f44c-1450-4fae-99e5-be7aeec419df','block');changeSingleIcon('span-fcd3f44c-1450-4fae-99e5-be7aeec419df');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_009_CHECKOUT_FUNCTIONALITY4</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fcd3f44c-1450-4fae-99e5-be7aeec419df' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070810815</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logging_valid_credentials_TC_LF_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.154s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="fcd3f44c-1450-4fae-99e5-be7aeec419df" style="display: block;">
+												method namelogging_valid_credentials_TC_LF_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070820774</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('66ac0f1c-df37-4358-a31c-8506ab916624','block');changeSingleIcon('span-66ac0f1c-df37-4358-a31c-8506ab916624');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_009_CHECKOUT_FUNCTIONALITY4</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-66ac0f1c-df37-4358-a31c-8506ab916624' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070820774</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>success_message_to_shoppingCart</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="66ac0f1c-df37-4358-a31c-8506ab916624" style="display: block;">
+												method namesuccess_message_to_shoppingCart<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715070801380</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('50bdd6d3-d666-44aa-9201-5ac5465ed162','block');changeSingleIcon('span-50bdd6d3-d666-44aa-9201-5ac5465ed162');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_011CHECKOUT_FUNCTIONALITY.TC_CO_009_CHECKOUT_FUNCTIONALITY4</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-50bdd6d3-d666-44aa-9201-5ac5465ed162' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715070801380</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_supported_env</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.002s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="50bdd6d3-d666-44aa-9201-5ac5465ed162" style="display: block;">
+												method namevalidate_supported_env<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

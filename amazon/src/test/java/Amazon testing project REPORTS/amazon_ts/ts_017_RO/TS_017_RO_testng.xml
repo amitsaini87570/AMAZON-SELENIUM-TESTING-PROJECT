@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+		<listeners>
+		<listener class-name="screenshot.listnerss"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TS_017_RETURN_ORDER.TC_001_RETURN_ORDER"/>
+      <class name="TS_017_RETURN_ORDER.TC_006_RETURN_ORDER2"/>
+      <class name="TS_017_RETURN_ORDER.TC_002_RETURN_ORDER2"/>
+      <class name="TS_017_RETURN_ORDER.TC_005_RETURN_ORDER2"/>
+      <class name="TS_017_RETURN_ORDER.TC_003_RETURN_ORDER2"/>
+      <class name="TS_017_RETURN_ORDER.TC_004_RETURN_ORDER2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

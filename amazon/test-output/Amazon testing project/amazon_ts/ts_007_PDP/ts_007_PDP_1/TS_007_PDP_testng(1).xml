@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="screenshot.listnerss"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+
+	<test thread-count="1" name="Test1">
+		<classes>
+			<class
+				name="TS_007_PRODUCT_DISPLAY_PAGE.TC_PDP_001_PRODUCT_DISPLAY_PAGE" />
+			
+					<class
+				name="TS_007_PRODUCT_DISPLAY_PAGE.TC_PDP_002_PRODUCT_DISPLAY_PAGE2" />
+				
+					<class
+				name="TS_007_PRODUCT_DISPLAY_PAGE.TC_PDP_003_PRODUCT_DISPLAY_PAGE3" />
+				
+				
+				
+				
+				
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

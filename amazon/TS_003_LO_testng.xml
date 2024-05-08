@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="screenshot.listnerss"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_003_LOGOUT_FUNCTIONALITY2" />
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_007_LOGOUT_FUNCTIONALITY4" />
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_002_LOGOUT_FUNCTIONALITY2" />
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_001_LOGOUT_FUNCTIONALITY" />
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_006_LOGOUT_FUNCTIONALITY3" />
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_004_LOGOUT_FUNCTIONALITY3" />
+			<class
+				name="TS_003_LOGOUT_FUNCTIONALITY.TC_LG_005_LOGOUT_FUNCTIONALITY2" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

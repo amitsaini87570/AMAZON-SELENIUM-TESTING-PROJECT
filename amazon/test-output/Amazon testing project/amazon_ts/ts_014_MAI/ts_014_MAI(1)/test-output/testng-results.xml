@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namemy_account_to_my_account_info]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namemake_empty_my_account_info]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameupdate_my_account_info]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-07T15:20:50 IST" name="Suite" finished-at="2024-05-07T15:21:33 IST" duration-ms="42727">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T15:20:50 IST" name="Test" finished-at="2024-05-07T15:21:33 IST" duration-ms="42727">
+      <class name="TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2@35a3d49f]" started-at="2024-05-07T15:21:07 IST" name="setup" finished-at="2024-05-07T15:21:16 IST" duration-ms="8728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2@35a3d49f]" started-at="2024-05-07T15:21:16 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:21:16 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2@35a3d49f]" started-at="2024-05-07T15:21:16 IST" name="setup" finished-at="2024-05-07T15:21:19 IST" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2@35a3d49f]" started-at="2024-05-07T15:21:16 IST" name="teardown" finished-at="2024-05-07T15:21:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="make_empty_my_account_info()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2@35a3d49f]" started-at="2024-05-07T15:21:19 IST" name="make_empty_my_account_info" finished-at="2024-05-07T15:21:19 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namemake_empty_my_account_info]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- make_empty_my_account_info -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2@35a3d49f]" started-at="2024-05-07T15:21:19 IST" name="teardown" finished-at="2024-05-07T15:21:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_003_MY_ACCOUNT_INFORMATION2 -->
+      <class name="TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2@2bdd8394]" started-at="2024-05-07T15:20:50 IST" name="setup" finished-at="2024-05-07T15:21:01 IST" duration-ms="10533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2@2bdd8394]" started-at="2024-05-07T15:21:01 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:21:01 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2@2bdd8394]" started-at="2024-05-07T15:21:01 IST" name="teardown" finished-at="2024-05-07T15:21:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2@2bdd8394]" started-at="2024-05-07T15:21:01 IST" name="setup" finished-at="2024-05-07T15:21:07 IST" duration-ms="5881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="my_account_to_my_account_info()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2@2bdd8394]" started-at="2024-05-07T15:21:07 IST" name="my_account_to_my_account_info" finished-at="2024-05-07T15:21:07 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namemy_account_to_my_account_info]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- my_account_to_my_account_info -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2@2bdd8394]" started-at="2024-05-07T15:21:07 IST" name="teardown" finished-at="2024-05-07T15:21:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_002_MY_ACCOUNT_INFORMATION2 -->
+      <class name="TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION@389b0789]" started-at="2024-05-07T15:21:19 IST" name="setup" finished-at="2024-05-07T15:21:26 IST" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION@389b0789]" started-at="2024-05-07T15:21:26 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T15:21:26 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION@389b0789]" started-at="2024-05-07T15:21:26 IST" name="teardown" finished-at="2024-05-07T15:21:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION@389b0789]" started-at="2024-05-07T15:21:26 IST" name="setup" finished-at="2024-05-07T15:21:33 IST" duration-ms="6470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="update_my_account_info()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION@389b0789]" started-at="2024-05-07T15:21:33 IST" name="update_my_account_info" finished-at="2024-05-07T15:21:33 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameupdate_my_account_info]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- update_my_account_info -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION@389b0789]" started-at="2024-05-07T15:21:33 IST" name="teardown" finished-at="2024-05-07T15:21:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_014_MY_ACCOUNT_INFORMATION.TC_MAI_001_MY_ACCOUNT_INFORMATION -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

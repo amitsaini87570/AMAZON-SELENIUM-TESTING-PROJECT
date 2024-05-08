@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method nameexisting_address_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameaddress_field_filled]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameaddress_field_empty]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_product_name_price]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namesuccess_message_to_shoppingCart]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-07T13:47:42 IST" name="Suite" finished-at="2024-05-07T13:48:33 IST" duration-ms="50986">
+    <groups>
+    </groups>
+    <test started-at="2024-05-07T13:47:42 IST" name="Test" finished-at="2024-05-07T13:48:33 IST" duration-ms="50986">
+      <class name="TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:42 IST" name="setup" finished-at="2024-05-07T13:47:47 IST" duration-ms="4344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existing_address_checkout()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:47 IST" name="existing_address_checkout" finished-at="2024-05-07T13:47:47 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameexisting_address_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- existing_address_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:47 IST" name="teardown" finished-at="2024-05-07T13:47:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:47 IST" name="setup" finished-at="2024-05-07T13:47:51 IST" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="address_field_filled()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:51 IST" name="address_field_filled" finished-at="2024-05-07T13:47:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameaddress_field_filled]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- address_field_filled -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:51 IST" name="teardown" finished-at="2024-05-07T13:47:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:51 IST" name="setup" finished-at="2024-05-07T13:47:54 IST" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:54 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T13:47:54 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:54 IST" name="teardown" finished-at="2024-05-07T13:47:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:54 IST" name="setup" finished-at="2024-05-07T13:47:58 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:58 IST" name="validate_product_name_price" finished-at="2024-05-07T13:47:58 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:58 IST" name="teardown" finished-at="2024-05-07T13:47:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:47:58 IST" name="setup" finished-at="2024-05-07T13:48:03 IST" duration-ms="5581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:48:03 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T13:48:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:48:03 IST" name="setup" finished-at="2024-05-07T13:48:05 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:48:03 IST" name="teardown" finished-at="2024-05-07T13:48:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="Validate_shopping_cart_to_checkout()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:48:05 IST" name="Validate_shopping_cart_to_checkout" finished-at="2024-05-07T13:48:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_shopping_cart_to_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7@7ac296f6]" started-at="2024-05-07T13:48:05 IST" name="teardown" finished-at="2024-05-07T13:48:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_011CHECKOUT_FUNCTIONALITY.TC_CO_007_CHECKOUT_FUNCTIONALITY7 -->
+      <class name="TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:05 IST" name="setup" finished-at="2024-05-07T13:48:09 IST" duration-ms="3504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="address_field_empty()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:09 IST" name="address_field_empty" finished-at="2024-05-07T13:48:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameaddress_field_empty]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- address_field_empty -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:09 IST" name="teardown" finished-at="2024-05-07T13:48:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:09 IST" name="setup" finished-at="2024-05-07T13:48:16 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging_valid_credentials_TC_LF_001()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:16 IST" name="logging_valid_credentials_TC_LF_001" finished-at="2024-05-07T13:48:16 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namelogging_valid_credentials_TC_LF_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_valid_credentials_TC_LF_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:16 IST" name="teardown" finished-at="2024-05-07T13:48:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:16 IST" name="setup" finished-at="2024-05-07T13:48:22 IST" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_product_name_price()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:22 IST" name="validate_product_name_price" finished-at="2024-05-07T13:48:22 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_product_name_price]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_product_name_price -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:22 IST" name="teardown" finished-at="2024-05-07T13:48:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:22 IST" name="setup" finished-at="2024-05-07T13:48:30 IST" duration-ms="7726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="success_message_to_shoppingCart()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:30 IST" name="success_message_to_shoppingCart" finished-at="2024-05-07T13:48:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namesuccess_message_to_shoppingCart]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- success_message_to_shoppingCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:30 IST" name="teardown" finished-at="2024-05-07T13:48:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:30 IST" name="setup" finished-at="2024-05-07T13:48:33 IST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_shopping_cart_to_checkout()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:33 IST" name="Validate_shopping_cart_to_checkout" finished-at="2024-05-07T13:48:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameValidate_shopping_cart_to_checkout]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Validate_shopping_cart_to_checkout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6@1b410b60]" started-at="2024-05-07T13:48:33 IST" name="teardown" finished-at="2024-05-07T13:48:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_011CHECKOUT_FUNCTIONALITY.TC_CO_006_CHECKOUT_FUNCTIONALITY6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
